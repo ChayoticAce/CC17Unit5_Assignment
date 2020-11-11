@@ -28,11 +28,13 @@ class MainActivity2 : AppCompatActivity() {
         val name = intent.getStringExtra("name")
         val email = intent.getStringExtra("email")
         val age = intent.getIntExtra("seekbar",69)
+         val phone =intent.getStringExtra("phone")
 
         intent1.putExtra("name", name)
         intent1.putExtra("email", email)
         intent1.putExtra("age", age)
         intent1.putExtra("calender", act2calender)
+         intent1.putExtra("phone",phone)
 
 
         Log.i("Act2","$name, $email, $age, $act2calender")
