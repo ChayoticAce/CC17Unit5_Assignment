@@ -1,0 +1,27 @@
+<resources>
+    <!--DO NOT TOUCH-->
+    <string name="app_name">CC17Unit5_Assignment</string>
+
+    <!--Act1-->
+    <string name="act1_name_hint">Enter Your Name</string>
+    <string name="act1_email_hint">Enter Your Email</string>
+
+    <string name="act1_age">Age</string>
+
+    <string name="act1_button">NEXT PAGE</string>
+
+    <!--Act2-->
+    <string name="act2_textview">Select Your Birth Date</string>
+    <string name="act2_button">Finish</string>
+
+    <!--Act3-->
+    <string name="act3_img_content_description">Reward for User</string>
+
+    <string name="act3_text1">Name:</string>
+    <string name="act3_text2">Email:</string>
+    <string name="act3_text3">Age:</string>
+    <string name="act3_text4">Phone:</string>
+    <string name="act3_text5">Birth Date:</string>
+    <string name="act3_name_ans">TextView</string>
+
+</resources>
