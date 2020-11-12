@@ -12,9 +12,6 @@ class FinalAct : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_final)
 
-        //Null checks and setting the textview with the string that came from act 1 for the following
-        //act3_name,act3_email,act3_age
-
         //Name
         val act3_name = intent.getStringExtra("name")
         findViewById<TextView>(R.id.act3_name).text = act3_name

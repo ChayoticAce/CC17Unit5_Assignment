@@ -25,6 +25,7 @@ class MainActivity2 : AppCompatActivity() {
         //There is a reason why the values from mainactivity.kt come here with their values.
          // But become null when sent to the next activity.
          //hhhhhmmmmmmmmmmmmmmmmm
+         //*Fixed*
         val name = intent.getStringExtra("name")
         val email = intent.getStringExtra("email")
         val age = intent.getIntExtra("seekbar",69)
